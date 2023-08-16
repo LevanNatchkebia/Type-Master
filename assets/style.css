@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&family=IBM+Plex+Sans:wght@400;700&family=Plus+Jakarta+Sans:ital,wght@0,700;0,800;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow';
+}
+.tablet, .mobile  {
+    display: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 165px;
+}
+
+.order-btn {
+    color: #162542;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    padding: 16px 27px;
+    background-color: #E8EFF2;
+    border-radius: 8px;
+    border:none;
+    cursor: pointer;
+}
+
+.order-btn:hover {
+    background-color: #162542;
+    color: white;
+    transition: 0.7s;
+}
+
+.section1, .section2, .section3 {
+    width: 100%;
+}
+
+h1 {
+    color: #162542;
+    font-family: Barlow;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 56px; 
+}
+
+.section1 p, .div3 p {
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; 
+    width: 70%;
+}
+
+.section1 {
+    position: relative;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 165px;
+    align-items: center;
+}
+.background_img {
+    position: absolute;
+    right: 0px;
+}
+
+.order-btn2 {
+    color: white;
+    background-color: #F16718;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    padding: 16px 27px;
+    border-radius: 8px;
+    border:none;
+    cursor: pointer;
+}
+
+.order-btn2:hover {
+    background-color: #FF9B62;
+    transition: 0.7s;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.div2 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+span {
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; 
+}
+
+.section2 {
+    width: auto;
+    position: relative;
+    padding: 0 165px;
+    display: flex;
+    align-items: center;
+    gap: 30.5px;
+    margin-top: 50px;
+}
+
+
+.background2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+h3 {
+    color: #162542;
+    font-family: Barlow;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px; /* 112.5% */
+    text-transform: uppercase;
+}
+
+.div3 {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    margin-left: 5%;
+    width: 100%;
+}
+.div3 p {
+    width: 100%;
+}
+h4 {
+    color: #162542;
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px; /* 116.667% */
+    margin-bottom: 24px;
+}
+
+.section3 p {
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; 
+}
+
+.section3 {
+    width: auto;
+    padding: 0 165px;
+    margin-top: 168px;
+    display: flex;
+    justify-content: space-between;
+}
+.div4 {
+    width: 20%;
+}
+.icon {
+    margin-bottom: 48px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 128px;
+    padding: 39px;
+}
+footer p {
+    text-align: center;
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+footer p span{
+    color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+@media screen and (min-width: 768px) and (max-width:1245px){
+    .desktop, .mobile {
+        display: none;
+    }
+    .tablet {
+        display: block;
+    }
+    .keyboard {
+        height: 425px;
+        width: 50%;
+    }
+    .pic1 {
+        width: 30%;
+       
+    }
+    .pic2 {
+        width: 60%;
+        
+    }
+    header {
+        padding: 49px 39px;
+    }
+    .section1 {
+        position: relative;
+        padding: 0 39px;
+        margin-top: 62px;
+        align-items: center;
+    }
+    .keyboard {
+        position: absolute;
+        right: 0;
+    }
+    .section2 {
+        position: relative;
+        padding: 0 39px;
+        margin-top: 150px;
+        flex-wrap: wrap;
+
+    }
+    .section3 {
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        padding: 0 39px;
+        gap: 69px;
+        flex-wrap: wrap;
+    }
+    .div3 {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    
+    h1 {
+        font-size: 48px;
+    }
+    .section1 p {
+        font-size: 16px;
+        width: 50%;
+    }
+    .div4 {
+        margin-top: 72px;
+        width: 45%;
+    }
+   .div4 p {
+    width: 100%;
+   }
+
+}
+
+@media screen and (min-width:375px) and (max-width:767px){
+    main{
+        position: relative;
+    }
+    .desktop, .tablet {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+
+    header {
+        width: 100%;
+        padding: 34px 39px;
+    }
+    .section1 {
+        position: relative;
+        padding: 0 39px;
+        flex-wrap: wrap;
+        width:100%;
+    }
+    .section2 {
+        padding: 0 ;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 100%;
+        margin-top: 100%;
+    }
+    .keyboard {
+        width: 100%;
+    }
+    .section3 {
+        display: flex;
+        justify-content: center;
+        padding: 0 39px;
+        gap: 69px;
+        flex-wrap: wrap;
+        margin-top: 111px;
+        width: 100%;
+    }
+    
+    footer {
+        width: 100%;
+    }
+    .div1 {
+        width: 100%;
+    }
+    .keyboard {
+        position: absolute;
+        right: 0;
+        top: 110%;
+        width: 80%;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    .section1 p {
+        font-size: 16px;
+        width: 100%;
+    }
+    .div3 {
+        text-align: center;
+        justify-content: center;
+        margin: 75px 60px;
+        
+    }
+    .div4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        text-align: center;
+        
+    }
+
+    .pic1 {
+        width: 30%;
+    }
+    .pic2 {
+        width: 60%;
+    }
+    .order-btn, .order-btn2 {
+        padding: 11px 14px;
+        font-size: 16px;
+        width: 150px;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
